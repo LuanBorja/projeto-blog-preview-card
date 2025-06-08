@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree';
+ }
+
+ body, html {
+    height: 100vh;
+    width: 100vw;
+ }
+
+ body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ main {
+    background-color: white;
+    width: 90%;
+   max-width: 350px;
+ 
+   border-radius: 10px;
+   border: 2px solid black;
+   box-shadow: 10px 10px 20px rgb(0, 0, 0);
+ }
+
+ .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+    padding: 20px;
+ }
+
+ .imagem {
+    width: 100%;
+ }
+
+ img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+
+ h4 {
+    background-color: #f4d04e;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+ }
+
+ .data {
+    font-size: 13px;
+    margin-bottom: 10px;
+ }
+
+ .click {
+    margin-bottom: 15px;
+ }
+
+ a {
+    text-decoration: none;
+    color: black;
+ }
+
+ a:hover {
+       color: #f4d04e;
+       cursor: pointer;
+ }
+
+ p {
+    line-height: 20px;
+    text-align: start;
+ }
+
+.autor {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+ .autor img{
+    
+    width: 35px;
+    height: 35px;
+    border: 50%;
+    margin-right: 10px;
+    display: block;
+ }
+
+ .nome {
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 1;
+
+    transform:translateY(-9px);
+    
+ }
+
